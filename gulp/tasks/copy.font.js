@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = function() {
-  var from = $.config.src + '/images/**/*.*',
-    to = $.config.root + '/assets/images',
-    task = 'copy:image';
+  var from = $.config.src + '/fonts/*.*',
+    to = $.config.root + '/assets/fonts',
+    task = 'copy:font';
 
   $.gulp.task(task, function() {
     return $.gulp.src(from, {
