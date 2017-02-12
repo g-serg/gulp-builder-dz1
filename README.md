@@ -1,14 +1,25 @@
-# Учебная сборка Loftschool
+## Gorelov Sergey
 
-> Сборка работает на gulp версии 4.0. 
+> gulp 4.0. 
 
 #### Для начала работы
 
-1. ```clone this repo```
-2. ```cd path/to/...```
-3. ```npm install gulpjs/gulp-cli -g```  
-> Установка последней версии Gulp CLI tools глобально (подробнее - [GitHub](https://github.com/gulpjs/gulp/blob/4.0/docs/getting-started.md) )
+0. ```windows - install node.msi & yarn.msi```
 
-4. ```npm install```
-6. ```run gulp``` 
+1. ```yarn remove -g gulp```
 
+2. ```yarn add -g gulp-cli```
+
+3. ```git clone project```
+
+4. ```cd project```
+
+5. ```yarn ```
+
+6. ```gulp ```
+
+#### добавлено
+
+```tasks/copy.font.js```  > gulp copy:font
+
+```tasks/sprite.png.js```  > gulp sprite:png
